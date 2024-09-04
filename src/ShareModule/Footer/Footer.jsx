@@ -25,7 +25,7 @@ const Footer = () => {
         {/* Center */}
         <Grid item xs={12} md={4} textAlign="center">
         <Typography variant="h6" component="div">
-        <img src={logo}/>
+        <img src={logo} alt='logo'/>
           </Typography>
           <Typography variant="body2" color="textSecondary"  component="div">
             Follow us on social media
