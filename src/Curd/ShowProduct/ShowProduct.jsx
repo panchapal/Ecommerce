@@ -115,7 +115,7 @@ const ShowProduct = () => {
                     variant="contained"
                     startIcon={<DeleteIcon />}
                     color="error"
-                    // className="button"
+                    className="button1"
                   >
                     Delete
                   </button>
@@ -149,7 +149,7 @@ const ShowProduct = () => {
                     variant="contained"
                     startIcon={<EditIcon />}
                     color="primary"
-                    // className="button"
+                    className="button2"
                   >
                     Edit
                   </button>
