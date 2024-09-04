@@ -84,7 +84,7 @@ function Header() {
       
   return (
     <div className="header">
-      <AppBar className="app" position="fixed" sx={{background:'linear-gradient(184deg, rgba(190,223,215,1) 0%, rgba(247,220,242,1) 100%)'}}>
+      <AppBar className="app" position="fixed">
         <Container maxWidth="xl">
           <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
             <Typography

@@ -87,6 +87,10 @@
     /* backdrop-filter: blur(20px); */
     /* background-color: white; */
 }
+.header .app{
+  background: linear-gradient(184deg, rgba(190,223,215,1) 0%, rgba(247,220,242,1) 100%);
+
+}
 .header .img{
   height:80px;
   width: 80px;
