@@ -111,14 +111,14 @@ const ShowProduct = () => {
                     setIsDelete(true);
                   }}
                 >
-                  <Button
+                  <button
                     variant="contained"
                     startIcon={<DeleteIcon />}
                     color="error"
-                    className="button"
+                    // className="button"
                   >
                     Delete
-                  </Button>
+                  </button>
                 </Link>
                 {isDelete && (
                   <SweetAlert
@@ -145,14 +145,14 @@ const ShowProduct = () => {
                   </SweetAlert>
                 )}
                 <Link to={`/Edit/${item?._id}`}>
-                  <Button
+                  <button
                     variant="contained"
                     startIcon={<EditIcon />}
                     color="primary"
-                    className="button"
+                    // className="button"
                   >
                     Edit
-                  </Button>
+                  </button>
                 </Link>
               </Box>
             </Card>
