@@ -82,9 +82,10 @@
   
 
   .header .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
-    background:transparent;
+    /* background:transparent; */
     box-shadow: none;
-    backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px); */
+    background-color: white;
 }
 .header .img{
   height:80px;
