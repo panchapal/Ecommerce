@@ -1,4 +1,4 @@
-.content1 {
+.content123 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -21,13 +21,13 @@
   border-radius: 12px;
   border: none;
 }
-.content1 h6 {
+.content123 h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   text-align: center;
   text-decoration: underline;
 }
-.content1 h4 {
+.content123 h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   text-decoration: underline;

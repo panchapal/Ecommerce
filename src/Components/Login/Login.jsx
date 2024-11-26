@@ -33,7 +33,7 @@ const Login = () => {
   };
 
   return (
-    <Box className='content1'>
+    <Box className='content123'>
       <Box className='grid1'>
         <form onSubmit={handleSubmit(onSubmit)} >
           <Typography variant="h4" padding={3} textAlign={'center'}>

@@ -91,7 +91,7 @@ export const authSlice = createSlice({
         state.upload_reg = "loading";
       })
       .addCase(logIn.fulfilled, (state, { payload }) => {
-        state.upload_reg = "success";
+        state.upload_reg = "200";
         localStorage.setItem("token", payload?.token);
         localStorage.setItem("Name", payload?.data.first_name);
         state.isLogin = true;
@@ -115,7 +115,6 @@ export const authSlice = createSlice({
 });
 
 export const {
-
   check_token,
   logout,
 } = authSlice.actions;

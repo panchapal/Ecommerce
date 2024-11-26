@@ -57,7 +57,8 @@ export default function Rout(){
         { path: '/createproduct', Component: <CreateProduct /> },
         { path: '/showProduct', Component: <ShowProduct /> },
         {path:'/edit/:id' ,Component:<EditProduct/>},
-        {path:'userdetails', Component:<UserDetails/>}
+        {path:'userdetails', Component:<UserDetails/>},
+        
     ];
     useEffect(()=>{
         dispatch(check_token()) 
