@@ -412,7 +412,7 @@ const EditProduct = () => {
 
   useEffect(() => {
     dispatch(product_edit(id));
-  }, [id,dispatch]);
+  }, [id, dispatch]);
 
   const { product } = useSelector((state) => state.productt);
   const {
@@ -427,7 +427,9 @@ const EditProduct = () => {
       setValue("title", product.title);
       setValue("description", product.description);
       if (product.image) {
-        setImagePreview(`https://wtsacademy.dedicateddevelopers.us/uploads/product/${product.image}`);
+        setImagePreview(
+          `https://wtsacademy.dedicateddevelopers.us/uploads/product/${product.image}`
+        );
       }
     }
   }, [product, setValue]);
@@ -436,7 +438,7 @@ const EditProduct = () => {
     const formData = new FormData();
     formData.append("title", data.title);
     formData.append("description", data.description);
-    if (data.image.length > 0) {
+    if (data.image && data.image.length > 0) {
       formData.append("image", data.image[0]);
     }
     formData.append("id", id);
@@ -448,9 +450,12 @@ const EditProduct = () => {
   };
 
   const handleImageChange = (event) => {
-    if (event.target.files.length > 0) {
-      const file = event.target.files[0];
+    const file = event.target.files[0];
+    if (file && file.type.startsWith("image/")) {
       setImagePreview(URL.createObjectURL(file));
+    } else {
+      toast.error("Please upload a valid image file");
+      event.target.value = null; 
     }
   };
 
@@ -472,8 +477,6 @@ const EditProduct = () => {
     };
   }, []);
 
- 
-
   return (
     <Box className="box3">
       <Box className="box4">
@@ -492,25 +495,6 @@ const EditProduct = () => {
                 {...register("title", { required: "Title is required" })}
                 error={!!errors.title}
                 InputLabelProps={{ shrink: true }}
-                sx={{
-                  "& .MuiOutlinedInput-root": {
-                    "& fieldset": {
-                      borderColor: "black",
-                    },
-                    "&:hover fieldset": {
-                      borderColor: "black",
-                    },
-                    "&.Mui-focused fieldset": {
-                      borderColor: "black",
-                    },
-                  },
-                  "& .MuiFormLabel-root": {
-                    color: "black",
-                    "&.Mui-focused": {
-                      color: "black",
-                    },
-                  },
-                }}
               />
             </Grid>
             <Grid item xs={12}>
@@ -523,34 +507,19 @@ const EditProduct = () => {
                 })}
                 error={!!errors.description}
                 InputLabelProps={{ shrink: true }}
-                sx={{
-                  "& .MuiOutlinedInput-root": {
-                    "& fieldset": {
-                      borderColor: "black",
-                    },
-                    "&:hover fieldset": {
-                      borderColor: "black",
-                    },
-                    "&.Mui-focused fieldset": {
-                      borderColor: "black",
-                    },
-                  },
-                  "& .MuiFormLabel-root": {
-                    color: "black",
-                    "&.Mui-focused": {
-                      color: "black",
-                    },
-                  },
-                }}
               />
             </Grid>
             <Grid item xs={12}>
-              <Box sx={{ display: 'flex', alignItems: 'center' }}>
+              <Box sx={{ display: "flex", alignItems: "center" }}>
                 {imagePreview && (
                   <img
                     src={imagePreview}
                     alt="Current Preview"
-                    style={{ maxWidth: "80px", maxHeight: "80px", marginRight: "16px" }}
+                    style={{
+                      maxWidth: "80px",
+                      maxHeight: "80px",
+                      marginRight: "16px",
+                    }}
                   />
                 )}
                 <TextField
@@ -562,20 +531,6 @@ const EditProduct = () => {
                   error={!!errors.image}
                   helperText={errors.image?.message}
                   onChange={handleImageChange}
-                  sx={{
-                    "& .MuiOutlinedInput-root": {
-                      "& fieldset": {
-                        borderColor: "black",
-                      },
-                      "&:hover fieldset": {
-                        borderColor: "black",
-                      },
-                      "&.Mui-focused fieldset": {
-                        borderColor: "black",
-                      },
-                      backgroundColor: "transparent",
-                    },
-                  }}
                 />
               </Box>
             </Grid>
@@ -584,7 +539,6 @@ const EditProduct = () => {
                 fullWidth
                 type="submit"
                 sx={{
-                  fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
                   mt: 2,
                   borderRadius: 3,
                   color: "black",

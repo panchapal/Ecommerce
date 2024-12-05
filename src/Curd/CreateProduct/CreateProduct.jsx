@@ -24,10 +24,21 @@ const CreateProduct = () => {
   const [image, setImage] = React.useState(null);
 
   const handleUpload = (e) => {
-    setImage(e.target.files[0]);
+    const file = e.target.files[0];
+    if (file && file.type.startsWith("image/")) {
+      setImage(file);
+    } else {
+      setImage(null);
+      toast.error("Please upload a valid image file (e.g., jpg, png, gif).");
+    }
   };
 
   const onSubmit = (data) => {
+    if (!image) {
+      toast.error("Please upload an image.");
+      return;
+    }
+
     const formData = new FormData();
     formData.append("title", data.title);
     formData.append("description", data.description);
@@ -56,6 +67,7 @@ const CreateProduct = () => {
       typed.destroy();
     };
   }, []);
+
   return (
     <Box className="productt">
       <form onSubmit={handleSubmit(onSubmit)} className="formm">
