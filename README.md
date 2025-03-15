@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 🛍️ Trend Haven
+Trend Haven is an online fashion store offering a seamless shopping experience for men and women. Browse the latest styles, add products to your cart, and enjoy a user-friendly interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 🌍 Weblink: [Visit Trend Haven](https://trend-smoky.vercel.app/)
+## 📸 Screenshots:
+<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g1.png"/>
+<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g2.png"/>
+<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g3.png"/>
+<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g4.png"/>
+<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g5.png"/>
+<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g6.png"/>
+<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g7.png"/>
 
-## Available Scripts
+## 📌 Table of Contents
+- 🌟 [Introduction](#introduction)
+- 🚀 [Features](#features)
+- 🛠  [Tech Stack](#techstack)
 
-In the project directory, you can run:
+## 🌟 Introduction
+Welcome to Trend Haven, your go-to destination for the latest fashion trends. Whether you're looking for trendy outfits for men and women or stylish accessories, we've got you covered. Our platform provides a smooth shopping experience with easy navigation, detailed product pages
 
-### `npm start`
+## 🚀 Features
+<br/>🏠 Home Page – A modern, responsive landing page showcasing the latest collections.
+<br/>👕 Men's Section – Explore stylish outfits and accessories for men.
+<br/>👗 Women's Section – Discover trendy fashion and must-have essentials.
+<br/>🏬 Store Page – Browse all available products.
+<br/>📦 Product Page – View product details, including images, price, and description.
+<br/>➕ Add Product – User add new products to the store.
+<br/>📞 Contact Page – Reach out to customer support for inquiries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
+🎨 Frontend
+- React – Component-based architecture for a seamless UI experience.
+- Material UI – Pre-styled, customizable components for a modern look.
+  
+🎨 Styling
+- CSS Modules – Scoped styles for better maintainability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⚙️ State Management
+Redux Toolkit (optional) – Efficient state management for scalable applications.
+  
+☁️ Hosting & Deployment
+- Vercel – Instant, scalable deployment with CI/CD support.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
