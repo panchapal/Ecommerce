@@ -3,13 +3,15 @@ Trend Haven is an online fashion store offering a seamless shopping experience f
 
 ### 🌍 Weblink: [Visit Trend Haven](https://trend-smoky.vercel.app/)
 ## 📸 Screenshots:
-<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g1.png"/>
-<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g2.png"/>
-<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g3.png"/>
-<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g4.png"/>
-<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g5.png"/>
-<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g6.png"/>
-<img width="450px;" src="https://github.com/panchapal/portfolio/blob/main/public/images/g7.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/1.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/2.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/3.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/4.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/5.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/6.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/7.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/8.png"/>
+<img width="450px;" src="https://github.com/panchapal/Ecommerce/blob/main/public/images/9.png"/>
 
 ## 📌 Table of Contents
 - 🌟 [Introduction](#introduction)
