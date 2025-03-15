@@ -39,7 +39,7 @@ Welcome to Trend Haven, your go-to destination for the latest fashion trends. Wh
 - CSS Modules – Scoped styles for better maintainability.
 
 ⚙️ State Management
-Redux Toolkit (optional) – Efficient state management for scalable applications.
+- Redux Toolkit (optional) – Efficient state management for scalable applications.
   
 ☁️ Hosting & Deployment
 - Vercel – Instant, scalable deployment with CI/CD support.
